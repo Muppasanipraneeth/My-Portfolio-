@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
 @keyframes fade-in-down {
   from {
     opacity: 0;
@@ -33,4 +30,13 @@
 
 .animate-fade-in-up {
   animation: fade-in-up 1s ease-out;
+}
+
+/* Add these new styles for the glow effect */
+.glow-text {
+  text-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+}
+
+.glow-border {
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.3);
 }
